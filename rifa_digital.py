@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Rifa Digital 🎟️")
 
 # Lista de números disponíveis na rifa (exemplo 1 a 50)
-numeros_disponiveis = list(range(1, 51))
+numeros_disponiveis = list(range(1, 101))
 
 # Estado para armazenar números comprados e pagos
 if "comprados" not in st.session_state:
